@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OnlineExamination
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# online-examination-frontend
+Online Examination System Frontend built with Angular, providing secure login, exam management, question handling, and result viewing features.
+>>>>>>> 0f460e58b1b9b0fc5db034b8cdec3fcc8ff40dc9
