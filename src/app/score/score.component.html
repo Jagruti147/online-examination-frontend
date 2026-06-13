@@ -1,0 +1,35 @@
+
+<html>
+    <body>
+<span style="color:red;font-size: 30px"> Your Score is {{totalscore}}</span><br><br>
+
+<table>
+<tr style="background-color: blue">
+
+
+    <th>qno</th>
+    <th>Question</th>
+    <th>submittedAnswer</th>
+    <th>correct Answer</th>
+
+</tr>
+
+
+
+    <tr *ngFor="let answer of allanswer" [style.background]="getColor(answer.submittedAnswer,answer.originalAnswer)">
+
+    <td>{{answer.qno}}</td>
+
+    <td>{{answer.qtext}}</td>
+
+    <td>{{answer.submittedAnswer}}</td>
+
+    <td>{{answer.OriginalAnswer}}</td>
+
+
+
+
+</tr>
+</table>
+</body>
+</html>

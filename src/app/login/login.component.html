@@ -1,0 +1,23 @@
+{{message}}
+
+
+
+
+
+<form>
+<input name="username"[(ngModel)]="user.username" placeholder="username"><br><br>
+
+
+<input name="password"[(ngModel)]="user.password"  placeholder="password"><br><br>
+
+<select name="subject" [(ngModel)]="subject">
+
+<option value="maths">maths</option>
+<option value="java">java</option>
+
+</select>
+
+
+
+<input type="button"(click)="validate()"value="login">
+</form>
